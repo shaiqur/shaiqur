@@ -9,4 +9,4 @@ Developed a model to detect distracted driving behaviors using pose estimation (
 - Built evaluation pipeline for AI City Challenge
 
 ## Tools
-YOLOv5 Pose, OpenCV, Python, Pandas, AWS EC2
+YOLOv7 Pose, OpenCV, Python, Pandas, AWS EC2
