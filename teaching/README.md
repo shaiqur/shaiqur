@@ -1,9 +1,9 @@
 # Teaching Experience
 
-- **Senior Design (COM S 402c)** — Spring 2025
+- **Senior Design (COM S 402c)** — Fall 2024, Spring 2025
   - Mentored 10 teams on software engineering projects.
 
-- **Creative Component (COM S 599)** — Spring 2025
+- **Creative Component (COM S 599)** — Fall 2024, Spring 2025
   - Guided teams of 5 on individual research and development efforts.
 
 - **COM S 309, 227, 510** — 2017–2024
