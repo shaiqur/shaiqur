@@ -1,4 +1,4 @@
-# 📄 CVPR Workshop 2023 Summary
+# 📄 CVPR Workshop 2024 Summary
 
 ## Title
 Driver Distraction Recognition using Pose Estimation
