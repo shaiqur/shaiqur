@@ -24,7 +24,7 @@ I’m a passionate researcher, full-stack developer, and cloud engineer with a s
 
 ## 💼 Work Experience
 
-### Full Stack Developer – SoilSerdem (Apr 2023 – Present)
+### Full Stack Developer – SoilSerdem (Apr 2024 – Dec 2024)
 - Developed and deployed a dynamic website using Next.js, hosted on AWS EC2 with HTTPS via NGINX and Let's Encrypt.
 - Implemented a CI/CD pipeline using GitHub Actions for seamless deployment of build artifacts to EC2.
 - Built a secure contact form integrated with AWS SES for email functionality.
