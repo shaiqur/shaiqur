@@ -8,6 +8,6 @@
 - Developed web-based interface for launching SageMaker notebooks and pulling data securely from S3.
 - Enabled access-controlled usage without AWS console login.
 
-## 3. Website for SoilSerdem
+## 3. Website creation
 - Full-stack AWS deployment with EC2, Lambda, Batch, and SES integrations.
 - Dockerized and deployed tools triggered via UI.
