@@ -10,4 +10,4 @@
 
 ## 3. Website for SoilSerdem
 - Full-stack AWS deployment with EC2, Lambda, Batch, and SES integrations.
-- Dockerized and deployed data science tools triggered via UI.
+- Dockerized and deployed tools triggered via UI.
