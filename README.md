@@ -60,7 +60,7 @@ I’m a passionate researcher, full-stack developer, and cloud engineer with a s
 Pose-based action recognition using YOLO for detecting driver distractions. Deployed on AWS using Docker and SageMaker.
 
 ### 🌐 [SoilSerdem Website](#)
-End-to-end full-stack application with CI/CD and AWS Batch job integrations for running data science tools.  
+End-to-end full-stack application with CI/CD and AWS Batch job integrations for running tools.  
 🔗 [www.soilserdem.com](http://www.soilserdem.com)
 
 ### 📊 [Synthetic Driving Data Tools](#)
