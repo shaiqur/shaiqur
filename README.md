@@ -57,7 +57,7 @@ I’m a passionate researcher, full-stack developer, and cloud engineer with a s
 ## 🧠 Featured Repositories
 
 ### 🧠 [Distracted Driving Detection](#)
-Pose-based action recognition using YOLO for detecting driver distractions. Deployed on AWS using Docker and SageMaker.
+Pose-based action recognition using YOLOv8 for detecting driver distractions. Deployed on AWS using Docker and SageMaker.
 
 ### 🌐 [SoilSerdem Website](#)
 End-to-end full-stack application with CI/CD and AWS Batch job integrations for running tools.  
@@ -70,8 +70,8 @@ Pipeline for synthetic data collection and processing for driver behavior resear
 
 ## 🎓 Teaching Experience
 
-- Mentored **10 teams** in COM S 402c (Senior Design), Spring 2025  
-- Supervised **Creative Component** (COM S 599) teams of 5  
+- Mentored **10 teams** in COM S 402c (Senior Design), Fall 2024, Spring 2025  
+- Supervised **Creative Component** (COM S 599) teams of 5 in Fall 2024, Spring 2025  
 - Taught and assisted in OOP, Software Engineering, and Distributed Systems since 2017  
 - 🏆 **Teaching Excellence Award** – Spring 2021
 
