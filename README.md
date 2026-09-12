@@ -1,100 +1,170 @@
-# 👋 Hi, I'm Mohammed Shaiqur Rahman
+# Mohammed Shaiqur Rahman
 
-🎓 **Ph.D. Candidate in Computer Science**  
-📍 Iowa State University | Graduating August 2025  
-🌐 [LinkedIn](https://www.linkedin.com/in/shaiqur) | ✉️ shaiqur@iastate.edu  
+### Applied AI / Computer Vision Researcher · Software & ML Engineer · Ph.D. Candidate in Computer Science
 
----
+I build **AI, data, and software systems that solve real research and operational problems** — from multimodal computer-vision models and large-scale research datasets to secure AWS platforms and cloud-based scientific processing applications.
 
-## 🚀 About Me
+My experience spans the full lifecycle:
 
-I’m a passionate researcher, full-stack developer, and cloud engineer with a strong foundation in machine learning, computer vision, and AWS infrastructure. My work focuses on real-world driving behavior analysis, with hands-on experience deploying end-to-end ML pipelines and data-intensive applications.
+**problem → data → architecture/model → implementation → deployment → evaluation → debugging**
 
----
-
-## 🔧 Tech Stack & Tools
-
-- **Languages:** Python, Java, C, R, SQL, TypeScript  
-- **ML/AI:** PyTorch, TensorFlow, Scikit-learn, YOLO, SageMaker  
-- **Cloud & DevOps:** AWS (EC2, Lambda, S3, RDS, SageMaker, Batch), Docker, Jenkins, Terraform  
-- **Frontend/Backend:** Spring Boot, Prisma, Next.js, PostgreSQL  
-- **Tools:** GitHub, GitLab, Tableau, ANTLR, SketchUp
+📍 Iowa State University, Ames, Iowa
+🔗 [LinkedIn](https://www.linkedin.com/in/shaiqur) · ✉️ [shaiqur@iastate.edu](mailto:shaiqur@iastate.edu)
 
 ---
 
-## 💼 Work Experience
+## Selected Impact
 
-### Full Stack Developer – SoilSerdem (Apr 2024 – Dec 2024)
-- Developed and deployed a dynamic website using Next.js, hosted on AWS EC2 with HTTPS via NGINX and Let's Encrypt.
-- Implemented a CI/CD pipeline using GitHub Actions for seamless deployment of build artifacts to EC2.
-- Built a secure contact form integrated with AWS SES for email functionality.
-- Created and managed backend APIs using AWS Lambda to trigger batch jobs for data processing.
-- Deployed several data science tools via Dockerized AWS Batch jobs, triggered from the frontend.
-- Managed and optimized AWS infrastructure including RDS, S3, IAM roles, Lambda functions, and Elastic IP.
-
-### System Engineer – IBM India Pvt. Ltd. (2011 – 2016)
-- Migrated enterprise applications to newer versions of IBM Message Broker.
-- Enhanced tools to support additional file formats and improve reliability.
-- Provided production support and incident resolution, gaining hands-on experience with IBM MQ, Message Broker, and Db2.
+* Built a **multimodal nine-zone driver-gaze system achieving approximately 86% subject-independent accuracy**, while also investigating robustness across drivers, appearance conditions, and vehicle/camera domains.
+* Helped transform direct AWS Console/SageMaker access into a **secure research-computing platform** with authentication, project-specific data isolation, automated provisioning, and controlled access to research resources.
+* Implemented SageMaker lifecycle and idle-shutdown automation that reduced unnecessary compute costs by approximately **30%**.
+* Built analysis-ready PostgreSQL datasets containing approximately **30M to 70M+ rows** by integrating sensor, trip, vehicle, roadway, and participant data.
+* Designed an **on-demand cloud processing system** using Docker, ECR, AWS Batch, S3, RDS, and VPC networking so users could run complex scientific/GIS tools through a web application.
+* Published research spanning **computer vision, video understanding, driver-monitoring datasets, and transportation NLP**.
 
 ---
 
-## 🔬 Research Experience
+# Featured Case Studies
 
-### Research Assistant – Reactor Lab, Iowa State University (2021 – Present)
-- Led research on distracted driving and driver behavior modeling using YOLO-based pose estimation.
-- Built and deployed secure AI platforms with SageMaker notebook access and auto-shutdown features.
-- Managed AWS infrastructure for large-scale data hosting, processing, and syncing from TrueNAS to S3.
-- Created Docker containers and PostgreSQL schemas for scalable computer vision pipelines.
-- Evaluated submissions in AI City Challenge and contributed to the creation of open-source datasets (SynDD1, SynDD2).
+## 🔐 Deep Insight — Secure Research Computing Platform
 
-### Graduate Thesis Projects
-- **Ph.D. Thesis**: "Advancing Driver Monitoring Systems" – Focus on dataset creation and modeling for distracted driving and gaze detection.
-- **M.S. Thesis**: "Activity Recognition and Animation of ADL" – Developed 3D activity models using SketchUp and JavaScript, with ANTLR-based parsers.
+**Problem:** Researchers needed SageMaker and sensitive project data, but widespread AWS Console access created security, isolation, usability, and cost problems.
 
----
+**What I worked on:** Designed secure SageMaker access without normal Console usage, project-specific S3 permissions, researcher isolation, automatic data provisioning, idle-instance shutdown, secure Tableau image serving, and research-tool integration.
 
-## 🧠 Featured Repositories
+**What it demonstrates:** Cloud architecture · AWS · security · IAM · platform engineering · research infrastructure · production troubleshooting
 
-### 🧠 [Distracted Driving Detection](#)
-Pose-based action recognition using YOLOv8 for detecting driver distractions. Deployed on AWS using Docker and SageMaker.
-
-### 🌐 [SoilSerdem Website](#)
-End-to-end full-stack application with CI/CD and AWS Batch job integrations for running tools.  
-🔗 [www.soilserdem.com](http://www.soilserdem.com)
-
-### 📊 [Synthetic Driving Data Tools](#)
-Pipeline for synthetic data collection and processing for driver behavior research. Used in AI City Challenge submissions.
+➡️ [Read the Deep Insight case study](projects/deep-insight.md)
 
 ---
 
-## 🎓 Teaching Experience
+## ⚙️ SoilSerdem — Cloud Scientific Processing Platform
 
-- Mentored **10 teams** in COM S 402c (Senior Design), Fall 2024, Spring 2025  
-- Supervised **Creative Component** (COM S 599) teams of 5 in Fall 2024, Spring 2025  
-- Taught and assisted in OOP, Software Engineering, and Distributed Systems since 2017  
-- 🏆 **Teaching Excellence Award** – Spring 2021
+**Problem:** Users needed to upload data, select a scientific/GIS tool, click **Process**, and receive results without installing or managing complex software environments.
 
----
+**What I built:** Dockerized scientific tools, ECR images, AWS Batch processing, S3/RDS integration, VPC connectivity, hierarchical role relationships, authentication, file workflows, and automated CI/CD.
 
-## 📝 Publications
+**What it demonstrates:** Full-stack engineering · backend systems · Docker · AWS · distributed processing · RBAC · DevOps
 
-- **Distracted Driving Detection using Synthetic Data** – CVPR Workshop 2024  
-- More papers in preparation on car-following models and gaze analysis
+➡️ [Read the SoilSerdem case study](projects/soilserdem.md)
 
 ---
 
-## 🏆 Honors & Awards
+## 👁️ Multimodal Driver Gaze Understanding
 
-- **Teaching Excellence Award**, Iowa State University – Spring 2021  
-- **Putting Client First**, IBM India Pvt. Ltd. – 2015
+**Ph.D. research — manuscript in preparation**
+
+I am investigating which visual and anatomical information should be preserved for robust driver gaze understanding.
+
+The work explores head/body context, periocular information, pose-derived geometry, temporal information, multimodal learning, and domain generalization.
+
+The current system achieves approximately **86% subject-independent accuracy across nine gaze zones**, while ongoing research examines how performance changes across unseen vehicle and camera environments.
+
+➡️ [Read the research overview](projects/driver-gaze.md)
 
 ---
 
-## 📫 Let’s Connect
+# More Research & Engineering
 
-Feel free to explore my work, star repositories you like, or [reach out to collaborate](mailto:shaiqur@iastate.edu)!
+### 📊 Large-Scale Research Data Engineering
+
+Integrated fragmented sensor, GPS, trip, vehicle, roadway, and participant data into analysis-ready PostgreSQL datasets containing approximately **30M to 70M+ records**.
+
+➡️ [Case study](projects/research-data-engineering.md)
+
+### 🎥 DeepLocalization
+
+Temporal action localization using pose estimation, change-point detection, and video understanding.
+
+**CVPR Workshops 2024**
+
+➡️ [Case study](projects/deep-localization.md)
+
+### 🚗 SynDD1 & SynDD2
+
+Helped develop driver-monitoring datasets from activity/gaze definition through participant collection, preprocessing, annotation, and benchmark preparation.
+
+The datasets supported research associated with multiple editions of the **AI City Challenge**.
+
+➡️ [Dataset development story](projects/syndd.md)
+
+### 📝 Crash Narrative NLP
+
+Applied BERT-based NLP to identify inconsistencies between structured seatbelt records and free-text crash narratives.
+
+➡️ [Case study](projects/crash-narrative-nlp.md)
 
 ---
 
-🧑‍💻 _Currently looking for academic and industry opportunities in the USA (OPT/CPT eligible)_
+# Research
+
+My research interests include:
+
+**Computer Vision · Driver Monitoring · Multimodal Learning · Video Understanding · Pose Estimation · Temporal Modeling · Model Robustness · Dataset Engineering**
+
+Selected work includes:
+
+* **DeepLocalization: Using Change Point Detection for Temporal Action Localization** — CVPR Workshops 2024
+* **Synthetic Distracted Driving (SynDD1) Dataset** — Data in Brief, 2023
+* **Synthetic Distracted Driving (SynDD2) Dataset**
+* **Deep Insight: A Cloud-Based Big Data Analytics Platform for Naturalistic Driving Studies**
+* **Improving Crash Data Accuracy by Identifying Seatbelt Inference Mismatch Using NLP and Behavioral Modeling** — Road Safety and Simulation, 2026
+
+➡️ [Research & Publications](publications/README.md)
+
+---
+
+# Teaching & Mentoring
+
+I have supported courses ranging from introductory Python through graduate research, including:
+
+**COM S 104 · COM S 227 · COM S 309 · COM S 402C · COM S 510 · COM S 599**
+
+My work includes curriculum and assessment development, capstone supervision, software architecture guidance, debugging/code reviews, and graduate research mentoring.
+
+I have supported and mentored **100+ undergraduate and graduate students**.
+
+🏆 **Teaching Excellence Award — Iowa State University, COM S 309**
+
+➡️ [Teaching & Mentoring](teaching/README.md)
+
+---
+
+# Production Engineering Foundation
+
+Before graduate research, I worked at **IBM India** on enterprise integration and production systems involving IBM MQ / Message Broker, data ingestion, application modernization, and production incident response.
+
+That experience gave me an early foundation in building and operating software where reliability and client impact mattered.
+
+🏆 **IBM “Putting Clients First” Award — 2015**
+
+➡️ [IBM experience](experience/ibm.md)
+
+---
+
+# Technical Areas
+
+**AI / Computer Vision**
+Python · PyTorch · OpenCV · YOLO · ResNet · BERT · multimodal learning · pose estimation · video understanding
+
+**Software / Backend**
+TypeScript · Next.js · React · Node.js · Express · REST APIs · Prisma
+
+**Cloud / Infrastructure**
+AWS · SageMaker · S3 · Lambda · EC2 · RDS · ECR · Batch/Fargate · IAM · VPC · Cognito · Amplify
+
+**Data**
+PostgreSQL · MySQL · SQL · pandas · ETL · large-scale research datasets
+
+**DevOps**
+Docker · GitHub Actions · CI/CD · NGINX · PM2 · Git
+
+---
+
+# What I'm Looking For
+
+I am interested in opportunities where I can combine **problem solving, software engineering, data, and applied AI**, including:
+
+**Computer Vision / Applied ML · Data Science · ML / Research Software Engineering · Backend / Cloud Engineering · Academic Teaching & Research**
+
+📫 [LinkedIn](https://www.linkedin.com/in/shaiqur) · [Email](mailto:shaiqur@iastate.edu)
