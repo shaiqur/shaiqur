@@ -116,9 +116,7 @@ SageMaker-generated access URLs allowed the application to direct researchers in
 
 # Solution 2 — Isolate Project Data
 
-Removing the AWS Console was only part of the solution.
-
-Researchers still needed access to data stored in S3.
+Removing the AWS Console was only part of the solution. Researchers still needed access to data stored in S3.
 
 Different projects contained different datasets, so access could not simply be granted at the entire bucket level.
 
@@ -179,11 +177,7 @@ The important decision was that **one data-access strategy did not fit every dat
 
 # Solution 4 — Stop Paying for Forgotten SageMaker Instances
 
-SageMaker instances are billed while they are running.
-
-Researchers occasionally finished working but forgot to shut their instances down.
-
-That meant the lab continued paying for idle compute.
+SageMaker instances are billed while they are running. Researchers occasionally finished working but forgot to shut their instances down. That meant the lab continued paying for idle compute.
 
 I implemented an idle-shutdown mechanism.
 
@@ -209,9 +203,7 @@ This automation helped reduce SageMaker compute costs by approximately **30%**.
 
 # Solution 5 — Make Deep Insight the Entry Point to Research Tools
 
-SageMaker was not the only tool researchers used.
-
-The lab already had services such as:
+SageMaker was not the only tool researchers used. The lab already had services such as:
 
 * CVAT on EC2
 * RStudio Server on EC2
@@ -226,23 +218,13 @@ This also gave us a more centralized view of research-resource access.
 
 # A Separate Challenge — Displaying Private Video Frames in Tableau
 
-One of the more unusual problems involved visualization.
+One of the more unusual problems involved visualization. We had huge amount (in TB) of research video data. For analysis, frames were extracted at approximately **1 FPS** and stored in S3.
 
-We had huge amount (in TB) of research video data**.
-
-For analysis, frames were extracted at approximately **1 FPS** and stored in S3.
-
-Researchers wanted to view those images alongside analytical information inside Tableau dashboards.
-
-That created a security and architecture problem.
+Researchers wanted to view those images alongside analytical information inside Tableau dashboards. That created a security and architecture problem.
 
 ### Why the obvious options did not work
 
-The S3 bucket contained sensitive research imagery.
-
-Making the bucket public simply so Tableau could display an image was not acceptable.
-
-Using additional analytical services for every image access could also introduce unnecessary cost.
+The S3 bucket contained sensitive research imagery. Making the bucket public simply so Tableau could display an image was not acceptable. Using additional analytical services for every image access could also introduce unnecessary cost.
 
 But Tableau could display images when provided with image URLs and could work with data coming from PostgreSQL.
 
