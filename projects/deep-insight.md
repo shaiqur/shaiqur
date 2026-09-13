@@ -216,22 +216,6 @@ This also gave us a more centralized view of research-resource access.
 
 ---
 
-# A Separate Challenge — Displaying Private Video Frames in Tableau
-
-One of the more unusual problems involved visualization. We had huge amount (in TB) of research video data. For analysis, frames were extracted at approximately **1 FPS** and stored in S3.
-
-Researchers wanted to view those images alongside analytical information inside Tableau dashboards. That created a security and architecture problem.
-
-### Why the obvious options did not work
-
-The S3 bucket contained sensitive research imagery. Making the bucket public simply so Tableau could display an image was not acceptable. Using additional analytical services for every image access could also introduce unnecessary cost.
-
-But Tableau could display images when provided with image URLs and could work with data coming from PostgreSQL.
-
-That gave me another approach.
-
----
-
 # Secure Visualization of Sensitive Research Imagery
 
 Another challenge involved allowing researchers to view image frames derived from a large collection of sensitive video data inside analytical dashboards.
@@ -264,24 +248,6 @@ This work reinforced an important design principle:
 
 > **When one system cannot safely access sensitive data directly, introduce a controlled boundary rather than weakening the security of the data source.**
 
-
----
-
-# Finding the Next Security Problem
-
-The proxy solved the S3 problem but introduced another question:
-
-> What happens if someone obtains one of those image URLs?
-
-If the EC2 server were reachable from anywhere, possession of a URL could provide unintended access to an image.
-
-I therefore restricted inbound access to the proxy using approved IP addresses.
-
-Authorized addresses could be added or removed from the EC2 network configuration as required.
-
-This project taught me an important security lesson:
-
-> **Solving one security boundary can create another boundary that also needs to be examined.**
 
 ---
 
@@ -464,7 +430,7 @@ SageMaker lifecycle configurations · cron · TrueNAS cloud synchronization
 
 **Visualization**
 
-Tableau · PHP image-serving proxy
+Tableau · secure research visualization
 
 ---
 
