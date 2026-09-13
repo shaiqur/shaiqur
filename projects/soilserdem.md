@@ -257,7 +257,7 @@ My responsibilities across the project included:
 * Developing full-stack application features
 * Modifying relational data models
 * Building file-upload workflows
-* Containerized four scientific/GIS workflows with complex native geospatial dependencies, including GDAL, GRASS GIS, AWS CLI etc.
+* Containerized four scientific/GIS workflows with complex native geospatial dependencies, including GDAL, GRASS GIS, and SAGA GIS.
 * Integrating user-facing applications with on-demand compute
 * Designing hierarchical role relationships
 * Implementing authentication and onboarding workflows
