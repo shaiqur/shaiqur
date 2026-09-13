@@ -635,41 +635,25 @@ This was a useful reminder that:
 
 ---
 
-# Draft Architecture Overview
+# High-Level Architecture
 
-The final portfolio will use a cleaner visual diagram, but the logical architecture was approximately:
+The diagram intentionally abstracts the production infrastructure; the processing workflow was implemented using containerized tools and AWS-managed storage, database, networking, and on-demand compute services.
 
 ```mermaid
-flowchart TD
+flowchart LR
+    U[User] --> A[Web Application]
 
-    U[User] --> WEB[Next.js / TypeScript Application]
+    A --> S[Uploaded Data Storage]
 
-    WEB --> AUTH[Authentication / Role Model]
-    AUTH --> RBAC[Admin / Sr. Agronomist / Agronomist / Grower]
+    A --> J[Processing Request]
 
-    WEB --> DB[(Application Database / RDS)]
-    WEB --> S3[(S3 File Storage)]
+    J --> C[On-Demand Container Processing]
 
-    WEB --> JOB[Processing Request]
+    S --> C
 
-    JOB --> BATCH[AWS Batch]
+    C --> R[Processed Results]
 
-    ECR[AWS ECR<br/>Docker Images] --> BATCH
-
-    BATCH --> WORKER[Processing Container]
-
-    WORKER --> DB
-    WORKER --> S3
-
-    S3 --> INPUT[Input File]
-    INPUT --> WORKER
-
-    WORKER --> TOOL[GDAL / GRASS / SAGA / Tool Logic]
-
-    TOOL --> OUTPUT[Processed Output]
-    OUTPUT --> S3
-
-    S3 --> WEB
+    R --> A
 ```
 
 The final visual version should emphasize the simplicity seen by the user versus the orchestration happening behind the application.
