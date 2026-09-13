@@ -3,9 +3,23 @@
 # SoilSerdem — Cloud Data Processing & Full-Stack Platform
 
 **Role:** Full-Stack / Cloud Software Engineer
+
 **Organization:** SoilSerdem
+
 **Period:** April 2024 – December 2024
+
 **Focus:** Full-stack development · Cloud processing · Docker · AWS · Data-science tooling · RBAC · CI/CD
+
+## At a Glance
+
+**Problem:** Users needed to run complex scientific and GIS processing tools through a simple web workflow without installing the software or managing cloud infrastructure themselves.
+
+**My Role:** Worked across the full stack — application development, data modeling, Docker environments, AWS infrastructure, processing orchestration, deployment, and production debugging.
+
+**Solution:** Containerized scientific tools and connected the web application to S3, RDS, ECR, AWS Batch, and VPC-based infrastructure so processing could run on demand.
+
+**Result:** Users could upload data, select a processing tool, launch cloud-based processing, and retrieve results while the underlying infrastructure remained hidden behind the application.
+
 
 ---
 
