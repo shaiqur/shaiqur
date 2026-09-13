@@ -36,7 +36,7 @@ A major focus of the ongoing work is understanding **robustness and domain shift
 
 Detailed methodology and experimental results will be released with the corresponding publication.
 
-[Research case study →](#)
+[Research case study →](../projects/driver-gaze.md)
 
 ---
 
@@ -72,7 +72,7 @@ My work has therefore also explored:
 
 This includes the **DeepLocalization** project published at CVPR Workshops 2024.
 
-[DeepLocalization case study →](#)
+[DeepLocalization case study →](../projects/deep-localization.md)
 
 ---
 
@@ -86,7 +86,7 @@ My work spanned:
 
 The datasets have supported research in distracted-driving recognition, gaze estimation, temporal localization, and AI City Challenge benchmarking.
 
-[SynDD case study →](#)
+[SynDD case study →](../projects/syndd.md)
 
 ---
 
@@ -98,7 +98,7 @@ My contribution focused on fine-tuning and evaluating **BERT-based models** to i
 
 This work demonstrates how unstructured text can be used to help validate structured transportation data.
 
-[Crash Narrative NLP case study →](#)
+[Crash Narrative NLP case study →](../projects/crash-narrative-nlp.md)
 
 ---
 
@@ -133,7 +133,7 @@ Explores temporal localization of driver activities using pose estimation, chang
 
 [DOI: 10.1109/CVPRW63382.2024.00721](https://doi.org/10.1109/CVPRW63382.2024.00721)
 
-[Case study →](#)
+[Case study →](../projects/deep-insight.md)
 
 ---
 
@@ -148,7 +148,7 @@ My work included major contributions across dataset design, activity definition,
 
 [DOI: 10.1016/j.dib.2022.108793](https://doi.org/10.1016/j.dib.2022.108793)
 
-[Dataset case study →](#)
+[Dataset case study →](../projects/syndd.md)
 
 ---
 
@@ -160,7 +160,7 @@ The second-generation SynDD dataset extended the driver-monitoring research fram
 
 [DOI: 10.48550/arXiv.2204.08096](https://doi.org/10.48550/arXiv.2204.08096)
 
-[Dataset case study →](#)
+[Dataset case study →](../projects/syndd.md)
 
 ---
 
@@ -172,7 +172,7 @@ Research infrastructure for managing and analyzing large-scale naturalistic-driv
 
 My related engineering work has included secure SageMaker access, AWS research infrastructure, large-scale data pipelines, automated environment provisioning, and research-computing support.
 
-[Deep Insight case study →](#)
+[Deep Insight case study →](../projects/deep-insight.md)
 
 ---
 
@@ -184,7 +184,7 @@ Investigates inconsistencies between structured seatbelt information and crash n
 
 **My contribution focused on the BERT-based NLP analysis and model evaluation.**
 
-[Crash Narrative NLP case study →](#)
+[Crash Narrative NLP case study →](../projects/crash-narrative-nlp.md)
 
 ---
 
