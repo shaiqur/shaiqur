@@ -20,7 +20,7 @@ My experience spans the full lifecycle:
 * Implemented SageMaker lifecycle and idle-shutdown automation that reduced unnecessary compute costs by approximately **30%**.
 * Built analysis-ready PostgreSQL datasets containing approximately **30M to 70M+ rows** by integrating sensor, trip, vehicle, roadway, and participant data.
 * Designed an **on-demand cloud processing system** using Docker, ECR, AWS Batch, S3, RDS, and VPC networking so users could run complex scientific/GIS tools through a web application.
-* Published research spanning **computer vision, video understanding, driver-monitoring datasets, and transportation NLP**.
+* Research spanning **computer vision, video understanding, driver-monitoring datasets, and transportation NLP**.
 
 ---
 
