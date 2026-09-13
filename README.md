@@ -8,7 +8,7 @@ My experience spans the full lifecycle:
 
 **problem → data → architecture/model → implementation → deployment → evaluation → debugging**
 
-📍 Iowa State University, Ames, Iowa
+ Iowa State University, Ames, Iowa
 🔗 [LinkedIn](https://www.linkedin.com/in/shaiqur) · ✉️ [shaiqur@iastate.edu](mailto:shaiqur@iastate.edu)
 
 ---
@@ -26,7 +26,7 @@ My experience spans the full lifecycle:
 
 # Featured Case Studies
 
-## 🔐 Deep Insight — Secure Research Computing Platform
+## Deep Insight — Secure Research Computing Platform
 
 **Problem:** Researchers needed SageMaker and sensitive project data, but widespread AWS Console access created security, isolation, usability, and cost problems.
 
@@ -38,7 +38,7 @@ My experience spans the full lifecycle:
 
 ---
 
-## ⚙️ SoilSerdem — Cloud Scientific Processing Platform
+## SoilSerdem — Cloud Scientific Processing Platform
 
 **Problem:** Users needed to upload data, select a scientific/GIS tool, click **Process**, and receive results without installing or managing complex software environments.
 
@@ -50,7 +50,7 @@ My experience spans the full lifecycle:
 
 ---
 
-## 👁️ Multimodal Driver Gaze Understanding
+## Multimodal Driver Gaze Understanding
 
 **Ph.D. research — manuscript in preparation**
 
@@ -66,13 +66,13 @@ The current system achieves approximately **86% subject-independent accuracy acr
 
 # More Research & Engineering
 
-### 📊 Large-Scale Research Data Engineering
+### Large-Scale Research Data Engineering
 
 Integrated fragmented sensor, GPS, trip, vehicle, roadway, and participant data into analysis-ready PostgreSQL datasets containing approximately **30M to 70M+ records**.
 
 ➡️ [Case study](projects/research-data-engineering.md)
 
-### 🎥 DeepLocalization
+### DeepLocalization
 
 Temporal action localization using pose estimation, change-point detection, and video understanding.
 
@@ -80,7 +80,7 @@ Temporal action localization using pose estimation, change-point detection, and 
 
 ➡️ [Case study](projects/deep-localization.md)
 
-### 🚗 SynDD1 & SynDD2
+### SynDD1 & SynDD2
 
 Helped develop driver-monitoring datasets from activity/gaze definition through participant collection, preprocessing, annotation, and benchmark preparation.
 
@@ -88,7 +88,7 @@ The datasets supported research associated with multiple editions of the **AI Ci
 
 ➡️ [Dataset development story](projects/syndd.md)
 
-### 📝 Crash Narrative NLP
+### Crash Narrative NLP
 
 Applied BERT-based NLP to identify inconsistencies between structured seatbelt records and free-text crash narratives.
 
@@ -124,7 +124,7 @@ My work includes curriculum and assessment development, capstone supervision, so
 
 I have supported and mentored **100+ undergraduate and graduate students**.
 
-🏆 **Teaching Excellence Award — Iowa State University, COM S 309**
+ **Teaching Excellence Award — Iowa State University, COM S 309**
 
 ➡️ [Teaching & Mentoring](teaching/README.md)
 
@@ -136,7 +136,7 @@ Before graduate research, I worked at **IBM India** on enterprise integration an
 
 That experience gave me an early foundation in building and operating software where reliability and client impact mattered.
 
-🏆 **IBM “Putting Clients First” Award — 2015**
+ **IBM “Putting Clients First” Award — 2015**
 
 ➡️ [IBM experience](experience/ibm.md)
 
@@ -167,4 +167,4 @@ I am interested in opportunities where I can combine **problem solving, software
 
 **Computer Vision / Applied ML · Data Science · ML / Research Software Engineering · Backend / Cloud Engineering · Academic Teaching & Research**
 
-📫 [LinkedIn](https://www.linkedin.com/in/shaiqur) · [Email](mailto:shaiqur@iastate.edu)
+ [LinkedIn](https://www.linkedin.com/in/shaiqur) · [Email](mailto:shaiqur@iastate.edu)
