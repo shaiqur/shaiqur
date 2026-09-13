@@ -430,36 +430,23 @@ These incidents reinforced that operating research infrastructure requires under
 
 ---
 
-# Architecture Overview
+# High-Level Architecture
+
+The public diagram is intentionally simplified; the platform used AWS services and access controls behind these layers to isolate researchers, data, and computing environments.
 
 ```mermaid
-flowchart TD
-
+flowchart LR
     U[Researcher] --> P[Deep Insight Portal]
 
-    P --> C[AWS Cognito]
-    C --> A[Authorization / Project Mapping]
+    P --> A[Authentication & Authorization]
 
-    A --> L[AWS Lambda]
-    L --> SM[SageMaker]
-    L --> S3[Private S3 Storage]
+    A --> R[Assigned Research Environment]
 
-    SM --> LC[Lifecycle Configuration]
-    LC --> DATA[Automatic Data Provisioning]
-    LC --> IDLE[Idle Shutdown Automation]
+    R --> D[Authorized Project Data]
 
-    P --> CVAT[CVAT on EC2]
-    P --> RS[RStudio Server]
+    R --> X[Research Tools]
 
-    S3 --> PROXY[EC2 PHP Image Proxy]
-    DB[(PostgreSQL)] --> TAB[Tableau]
-    TAB --> PROXY
-    PROXY --> S3
-
-    RAW[Raw Research Data] --> ETL[Integration / Transformation]
-    ETL --> DB
-
-    NAS[TrueNAS] --> S3
+    R --> M[Automated Provisioning & Cost Controls]
 ```
 
 ---
