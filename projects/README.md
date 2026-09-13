@@ -1,13 +1,18 @@
-# Projects
+[← Back to Portfolio](../README.md)
 
-## 1. Distracted Driving Detection (Ongoing)
-- Used YOLO pose estimation for action recognition from real driving videos.
-- Designed pipeline using SageMaker and Docker on AWS.
+# Case Studies
 
-## 2. AWS-Powered Secure AI Platform
-- Developed web-based interface for launching SageMaker notebooks and pulling data securely from S3.
-- Enabled access-controlled usage without AWS console login.
+My portfolio focuses on the problems I worked on, the constraints behind them, the decisions I made, and what the resulting systems or experiments taught me.
 
-## 3. Website creation
-- Full-stack AWS deployment with EC2, Lambda, Batch, and SES integrations.
-- Dockerized and deployed tools triggered via UI.
+## Cloud & Software Engineering
+
+- [Deep Insight — Secure Research Computing Platform](deep-insight.md)
+- [SoilSerdem — Cloud Scientific Processing Platform](soilserdem.md)
+- [Large-Scale Research Data Integration](research-data-engineering.md)
+
+## AI & Research
+
+- [Multimodal Driver Gaze Understanding](driver-gaze.md)
+- [SynDD1 & SynDD2 Dataset Development](syndd.md)
+- [DeepLocalization](deep-localization.md)
+- [Crash Narrative NLP](crash-narrative-nlp.md)
