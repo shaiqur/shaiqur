@@ -3,7 +3,9 @@
 # SoilSerdem — Cloud Data Processing Platform
 
 **Role:** Full-Stack / Cloud Software Engineer
+
 **Organization:** SoilSerdem
+
 **Period:** April 2024 – December 2024
 
 ## At a Glance
@@ -84,9 +86,14 @@ That feature became the starting point for the application's larger scientific-p
 
 A major challenge was making several scientific and geospatial tools run consistently outside individual development machines.
 
-Their environments contained complex system and software dependencies.
+The scientific processing workflows depended on **resource-intensive geospatial software and native system libraries**, making the runtime environments difficult to reproduce consistently.
 
-I created reproducible containerized environments for **four processing tools** and tested each workflow locally before integrating it with the cloud-processing system.
+I containerized four processing workflows and worked through compatibility and dependency issues across complex geospatial tooling, including technologies such as **GDAL, GRASS GIS, and SAGA GIS**, along with supporting Linux libraries and cloud-access utilities.
+
+I validated each environment locally before integrating it into the broader processing workflow.
+
+The value of containerization was not simply packaging the applications—it created **repeatable, isolated execution environments** for scientific software with substantial system-level dependencies.
+
 
 Each processing unit followed the same high-level contract:
 
@@ -250,7 +257,7 @@ My responsibilities across the project included:
 * Developing full-stack application features
 * Modifying relational data models
 * Building file-upload workflows
-* Containerizing scientific processing tools
+* Containerized four scientific/GIS workflows with complex native geospatial dependencies, including GDAL, GRASS GIS, AWS CLI etc.
 * Integrating user-facing applications with on-demand compute
 * Designing hierarchical role relationships
 * Implementing authentication and onboarding workflows
