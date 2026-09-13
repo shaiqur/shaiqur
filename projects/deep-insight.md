@@ -228,7 +228,7 @@ This also gave us a more centralized view of research-resource access.
 
 One of the more unusual problems involved visualization.
 
-We had approximately **15 TB of research video data**.
+We had huge amount (in TB) of research video data**.
 
 For analysis, frames were extracted at approximately **1 FPS** and stored in S3.
 
@@ -250,31 +250,38 @@ That gave me another approach.
 
 ---
 
-# Building an Image-Serving Proxy
+# Secure Visualization of Sensitive Research Imagery
 
-I created a lightweight PHP service running on EC2.
+Another challenge involved allowing researchers to view image frames derived from a large collection of sensitive video data inside analytical dashboards.
 
-After image extraction, each frame was associated with a generated URL, and those URLs were stored with the analytical information in PostgreSQL.
+The imagery needed to remain in **private cloud storage**, so making the underlying storage publicly accessible was not an acceptable solution. At the same time, researchers needed a practical way to connect analytical records with the corresponding visual evidence.
 
-The request flow became:
+I designed an intermediary image-delivery workflow that allowed the dashboard to request the appropriate image through a controlled service rather than accessing the private storage directly.
+
+Conceptually:
 
 ```text
-Tableau
-    ↓
-Image URL stored in PostgreSQL
-    ↓
-EC2 PHP server
-    ↓
-Extract requested filename
-    ↓
-Determine S3 object location
-    ↓
-Retrieve image from private S3
-    ↓
-Return image to Tableau
+Analytical Dashboard
+        ↓
+Controlled Image Request
+        ↓
+Secure Image-Serving Layer
+        ↓
+Private Research Storage
+        ↓
+Requested Image
 ```
 
-This allowed Tableau to display the required imagery while keeping the underlying S3 storage private.
+Image references were associated with the corresponding analytical records so researchers could move between structured data and visual information without exposing the underlying storage location.
+
+I also added network-level access restrictions so that the image-serving service was reachable only from approved environments.
+
+The result allowed researchers to inspect sensitive imagery alongside analytical data while keeping the original research storage private.
+
+This work reinforced an important design principle:
+
+> **When one system cannot safely access sensitive data directly, introduce a controlled boundary rather than weakening the security of the data source.**
+
 
 ---
 
