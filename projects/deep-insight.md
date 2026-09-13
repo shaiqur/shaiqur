@@ -3,8 +3,21 @@
 # Deep Insight — Secure Research Computing Platform
 
 **Role:** Research Software / Cloud Engineer
+
 **Organization:** Reactor Lab, Iowa State University
+
 **Focus:** Secure research computing · AWS · SageMaker · Data governance · Research infrastructure
+
+## At a Glance
+
+**Problem:** Researchers needed SageMaker and restricted research data, but broad AWS Console access created security, project-isolation, usability, and cost concerns.
+
+**My Role:** Served as the lab's single point of contact for AWS infrastructure while helping design and operate the research-computing platform.
+
+**Solution:** Built controlled access workflows using authentication, project-specific authorization, SageMaker, S3/IAM, Lambda, automated data provisioning, and compute lifecycle management.
+
+**Impact:** Reduced researchers' need to interact directly with AWS infrastructure, improved project/data isolation and usability, and helped reduce unnecessary SageMaker compute cost by approximately **30%**.
+
 
 ---
 
