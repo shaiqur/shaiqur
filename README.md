@@ -46,7 +46,7 @@ Programming, software engineering, capstone projects, distributed systems, and g
 
 **Stack:** `AWS` `SageMaker` `S3` `IAM` `Lambda` `Cognito` `DynamoDB` `Next.js` `TypeScript` `Docker`
 
-➡️ [Read the Deep Insight case study](projects/ai-platform.md)
+➡️ [Read the Deep Insight case study](projects/deep-insight.md)
 
 ---
 
@@ -71,7 +71,7 @@ The current work evaluates **nine-zone driver gaze understanding** using subject
 
 📄 Manuscript in preparation.
 
-➡️ [Read the driver-gaze research overview](projects/gaze-detection.md)
+➡️ [Read the driver-gaze research overview](projects/driver-gaze.md)
 
 ---
 
@@ -95,7 +95,7 @@ I also diagnosed a production backend failure caused by differences between deve
 
 **Stack:** `Next.js` `TypeScript` `Node.js` `Prisma` `SQL` `Docker` `AWS` `GitHub Actions` `NGINX` `PM2` `GDAL` `GRASS GIS` `SAGA GIS`
 
-➡️ [Read the software/cloud case study](projects/webCreation.md)
+➡️ [Read the software/cloud case study](projects/soilserdem.md)
 
 ---
 
@@ -131,7 +131,7 @@ Investigated temporal localization of driver activities in long videos using pos
 
 I led development and Dockerization of the inference/experimental workflow for reproducible evaluation.
 
-➡️ [Read more about the pose/video workflow](projects/yolopose-detection.md)
+➡️ [Read more about the pose/video workflow](projects/deep-localization.md)
 
 ---
 
@@ -144,6 +144,7 @@ Developed the **BERT-based NLP analysis** for research studying inconsistencies 
 * Used narrative information to help identify potential mismatch in structured crash records.
 
 **Accepted:** Road Safety and Simulation Conference, 2026.
+➡️ [Read more about the pose/video workflow](projects/crash-narrative-nlp.md)
 
 ---
 
@@ -165,6 +166,8 @@ Alongside model development, much of my work has involved building the data syst
 * Built large-scale S3 retrieval and processing workflows.
 * Supported video/frame extraction and cloud-based computer-vision processing.
 * Built Dockerized ML inference environments using AWS ECR and SageMaker.
+
+➡️ [Read more about the pose/video workflow](projects/research-data-engineering.md)
 
 ---
 
@@ -262,10 +265,10 @@ Experience included application migrations, CSV/data-ingestion workflows, functi
 
 This profile is intentionally a summary. Individual project pages contain deeper technical context, architecture decisions, constraints, debugging stories, and lessons learned.
 
-* 🔐 [Secure AI / AWS Research Platform](projects/ai-platform.md)
-* 👁️ [Driver Gaze & Multimodal Vision](projects/gaze-detection.md)
-* 🌱 [Full-Stack / Scientific Processing Platform](projects/webCreation.md)
-* 🎥 [Pose & Driver-Behavior Processing](projects/yolopose-detection.md)
+* 🔐 [Secure AI / AWS Research Platform](projects/deep-insight.md)
+* 👁️ [Driver Gaze & Multimodal Vision](projects/driver-gaze.md)
+* 🌱 [Full-Stack / Scientific Processing Platform](projects/soilserdem.md)
+* 🎥 [Pose & Driver-Behavior Processing](projects/deep-localization.md)
 * 📚 [Publications](publications/)
 * 🎓 [Teaching](teaching/)
 
