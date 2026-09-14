@@ -8,7 +8,10 @@ I build **computer-vision and machine-learning systems, research datasets, cloud
 
 My work sits at the intersection of **AI research and practical engineering**: developing models and evaluation methods, building the data and infrastructure they depend on, and debugging the real systems required to make them usable.
 
-[LinkedIn](https://www.linkedin.com/in/shaiqur) · [GitHub](https://github.com/shaiqur) · [shaiqur@iastate.edu](mailto:shaiqur@iastate.edu)
+🔗 [LinkedIn](https://www.linkedin.com/in/shaiqur) · 
+🎓 [Google Scholar](https://scholar.google.com/citations?user=5kvdX3oAAAAJ&hl=en) · 
+💻 [GitHub](https://github.com/shaiqur) · 
+✉️ [Email](mailto:shaiqur@iastate.edu)
 
 ---
 
@@ -261,16 +264,37 @@ Experience included application migrations, CSV/data-ingestion workflows, functi
 
 ---
 
+---
+
 # Explore More
 
-This profile is intentionally a summary. Individual project pages contain deeper technical context, architecture decisions, constraints, debugging stories, and lessons learned.
+The sections above provide a high-level overview. These pages contain deeper context on the problems, technical decisions, implementation work, evaluation, and lessons learned.
 
-* 🔐 [Secure AI / AWS Research Platform](projects/deep-insight.md)
-* 👁️ [Driver Gaze & Multimodal Vision](projects/driver-gaze.md)
-* 🌱 [Full-Stack / Scientific Processing Platform](projects/soilserdem.md)
-* 🎥 [Pose & Driver-Behavior Processing](projects/deep-localization.md)
-* 📚 [Publications](publications/)
-* 🎓 [Teaching](teaching/)
+### 🔐 Cloud & Research Infrastructure
+- [Deep Insight — Secure Research Computing Platform](projects/deep-insight.md)
+
+### 🌱 Software & Cloud Engineering
+- [SoilSerdem — Cloud Scientific Processing Platform](projects/soilserdem.md)
+
+### 👁️ Computer Vision & Applied AI
+- [Multimodal Driver Gaze Understanding](projects/driver-gaze.md)
+- [DeepLocalization — Temporal Action Localization](projects/deep-localization.md)
+
+### 📊 Data & ML Engineering
+- [Large-Scale Research Data Engineering](projects/research-data-engineering.md)
+
+### 🚗 Datasets & Benchmarking
+- [SynDD1 / SynDD2 — Driver-Monitoring Dataset Development](projects/syndd.md)
+
+### 📝 NLP & Transportation Safety
+- [Crash Narrative NLP — Seatbelt Record Consistency](projects/crash-narrative-nlp.md)
+
+### 🎓 Teaching & Academic Work
+- [Teaching & Mentoring](teaching/README.md)
+- [Research & Publications](publications/README.md)
+
+### 🏢 Earlier Professional Experience
+- [IBM — Enterprise Software & Production Engineering](experience/ibm.md)
 
 ---
 
@@ -280,5 +304,7 @@ I am interested in opportunities involving:
 
 **Computer Vision · Applied Machine Learning · Data Science · Research Software · ML Platforms · Cloud Engineering**
 
-📧 [shaiqur@iastate.edu](mailto:shaiqur@iastate.edu)
-🔗 [LinkedIn](https://www.linkedin.com/in/shaiqur)
+🔗 [LinkedIn](https://www.linkedin.com/in/shaiqur) · 
+🎓 [Google Scholar](https://scholar.google.com/citations?user=5kvdX3oAAAAJ&hl=en) · 
+💻 [GitHub](https://github.com/shaiqur) · 
+✉️ [Email](mailto:shaiqur@iastate.edu)
