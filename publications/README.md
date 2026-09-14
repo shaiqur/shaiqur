@@ -23,12 +23,12 @@ My current research investigates how different forms of anatomical and visual co
 The work explores:
 
 * Head and upper-body visual context
-* Periocular / eye-region information
+* Eye-region information
 * Pose-derived geometric relationships
 * Multimodal learning
 * Temporal information
 * Subject-independent evaluation
-* Cross-vehicle / camera generalization
+* Camera generalization
 
 The current multimodal system achieves approximately **86% subject-independent accuracy across nine gaze zones**.
 
@@ -51,7 +51,7 @@ I work on models for understanding driver behavior from in-cabin video, includin
 * Human pose estimation
 * Multimodal visual reasoning
 * Temporal modeling
-* Robustness across participants and vehicle configurations
+* Robustness across participants
 
 My goal is not only to improve model performance, but also to understand **what information the models rely on and when those assumptions fail**.
 
@@ -301,9 +301,9 @@ Contributed to evaluation of submissions in the naturalistic-driving / driver-di
 
 # Research Links
 
-[Google Scholar](https://scholar.google.com/citations?user=5kvdX3oAAAAJ&hl=en)
-[ORCID](#)
-[GitHub](https://github.com/shaiqur)
+[Google Scholar](https://scholar.google.com/citations?user=5kvdX3oAAAAJ&hl=en).
+[ORCID](#).
+[GitHub](https://github.com/shaiqur).
 [Full CV](#)
 
 
