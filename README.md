@@ -57,7 +57,7 @@ My Ph.D. research examines how complementary visual and geometric information ca
 The work combines:
 
 * visual appearance representations,
-* context-enriched periocular information,
+* context-enriched information,
 * pose-derived geometric reasoning,
 * temporal information,
 * multimodal fusion, and
