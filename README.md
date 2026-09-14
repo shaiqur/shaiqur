@@ -229,6 +229,10 @@ DOI: `10.48550/arXiv.2204.08096`
 **Accepted — Road Safety and Simulation Conference, 2026**
 My contribution: BERT-based NLP modeling and evaluation.
 
+🎓 [View my Google Scholar profile](https://scholar.google.com/citations?user=5kvdX3oAAAAJ&hl=en)
+
+➡️ [See full research & publications](publications/README.md)
+
 ---
 
 # Technical Toolbox
