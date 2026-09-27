@@ -78,6 +78,15 @@ The current work evaluates **nine-zone driver gaze understanding** using subject
 
 ---
 
+### Driver-View Car-Following Prototype
+Exploratory computer-vision pipeline for identifying candidate car-following periods from driver-view video using YOLOv8 vehicle detection, camera-specific ROI geometry, temporal occupancy analysis, and AWS S3/SageMaker processing.
+
+**Tech:** Python · YOLOv8 · OpenCV · Pandas · AWS S3 · SageMaker
+
+[Project Details](projects/driver-view-car-following.md) · [Source Code](https://github.com/shaiqur/driver-view-car-following)
+
+---
+
 ## 🌱 SoilSerdem — Full-Stack Scientific Processing Platform
 
 Worked as a **Full Stack Developer** on a cloud-based platform supporting scientific and geospatial data-processing workflows.
